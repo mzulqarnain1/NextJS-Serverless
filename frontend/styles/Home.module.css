@@ -1,0 +1,55 @@
+.title a {
+  color: #0070f3;
+  text-decoration: none;
+}
+
+.title a:hover,
+.title a:focus,
+.title a:active {
+  text-decoration: underline;
+}
+
+.title {
+  margin: 20px;
+  line-height: 1.15;
+  font-size: 2rem;
+}
+
+.title {
+  text-align: center;
+}
+
+.formContainer{
+  width:50%;
+  margin-left: 200px;
+  margin-top: 80px;
+}
+.form{
+  width:100%;
+}
+.row{
+  width:100%;
+  display:block;
+}
+.column{
+  width:100%;
+  display:inline-block;
+  margin: 6px;
+}
+.label{
+  width:30%;
+  float:left;
+}
+.input{
+  width:60%;
+  float:right;
+}
+.submit{
+  width:60%;
+  float: right;
+}
+.error{
+  font-weight: bold;
+  color: red;
+  float: right;
+}
